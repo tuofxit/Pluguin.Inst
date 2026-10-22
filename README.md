@@ -2,19 +2,25 @@
 
 **Instrumento VST3 open source para Windows 64 bits**, desenvolvido para tocar gravações reais de instrumentos em faixas MIDI do Ableton Live 12 e outros hosts VST3.
 
-**57 opções de instrumentos e combinações · 248 articulações/presets · 7.350 arquivos WAV · 80 timbres sintéticos adicionais**
+**397 presets de samples · instrumentos acústicos, synths, 808s, pads e baterias · 80 timbres sintéticos adicionais**
 
 ![Interface do Instro Natural](docs/interface.png)
 
+## Novo: expansão Urban
+
+149 presets de samples adicionados para produção de trap, emo trap, lo-fi, funk, pop e eletrônica. Inclui MS20, SK5, TX81Z, MiniFreak, Wavestate, Pro1, nove kits SR16 e 808s/bells/plucks originais. [Guia, limitações e licenças](docs/URBAN.md).
+
+Para baixar só a expansão com o plugin, use `-Bancos urban` no script abaixo.
+
 ## Baixar e começar
 
-**[Abrir a página de downloads da versão 0.3.0](https://github.com/tuofxit/Pluguin.Inst/releases/tag/v0.3.0)**
+**[Abrir a página de downloads da versão 0.4.0](https://github.com/tuofxit/Pluguin.Inst/releases/tag/v0.4.0)**
 
 Você não precisa compilar o código para tocar. O pacote Windows já contém o VST3 e o aplicativo independente. Os bancos são baixados separadamente, então você pode começar apenas com piano ou violão.
 
 ### Opção 1: download organizado pelo script
 
-1. **[Baixe o arquivo Baixar-Instro.ps1](https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Baixar-Instro.ps1)** e salve-o, por exemplo, em Downloads. O script pode ser lido [aqui](Baixar-Instro.ps1).
+1. **[Baixe o arquivo Baixar-Instro.ps1](https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.4.0/Baixar-Instro.ps1)** e salve-o, por exemplo, em Downloads. O script pode ser lido [aqui](Baixar-Instro.ps1).
 2. Abra o PowerShell na pasta onde salvou o arquivo.
 3. Execute para baixar o aplicativo e todos os bancos:
 
@@ -40,13 +46,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\Baixar-Instro.ps1 -Bancos 
 powershell -NoProfile -ExecutionPolicy Bypass -File .\Baixar-Instro.ps1 -Destino 'D:\Instrumentos\Instro-Natural'
 ```
 
-Os grupos disponíveis são `piano`, `violoes`, `guitarras`, `baixo`, `orquestra` e `extras`. `todos` é o padrão. `nenhum` baixa apenas o aplicativo/plugin, permitindo usar o modo sintetizador sem samples. Você pode executar o script outra vez para acrescentar bancos; downloads completos já conferidos são reaproveitados.
+Os grupos disponíveis são `piano`, `violoes`, `guitarras`, `baixo`, `orquestra`, `extras` e `urban`. `todos` é o padrão. `nenhum` baixa apenas o aplicativo/plugin, permitindo usar o modo sintetizador sem samples. Você pode executar o script outra vez para acrescentar bancos; downloads completos já conferidos são reaproveitados.
 
-**Espaço:** os WAVs ocupam cerca de 7,2 GB. Reserve **16 GB livres** para a biblioteca completa, os ZIPs e a extração. Após conferir a instalação, a subpasta `Downloads` criada pelo script pode ser apagada para liberar o espaço dos ZIPs.
+**Espaço:** os WAVs ocupam cerca de 8,2 GB. Reserve **19 GB livres** para a biblioteca completa, os ZIPs e a extração. Após conferir a instalação, a subpasta `Downloads` criada pelo script pode ser apagada para liberar o espaço dos ZIPs.
 
 ### Opção 2: baixar e extrair manualmente
 
-Na [Release 0.3.0](https://github.com/tuofxit/Pluguin.Inst/releases/tag/v0.3.0), baixe e extraia **Instro-Natural-Windows-x64.zip** em uma pasta chamada `Instro-Natural`. Depois baixe os bancos desejados e siga a tabela:
+Na [Release 0.4.0](https://github.com/tuofxit/Pluguin.Inst/releases/tag/v0.4.0), baixe e extraia **Instro-Natural-Windows-x64.zip** em uma pasta chamada `Instro-Natural`. Baixe `Banco-Urban.zip` nesta release. Os bancos acústicos continuam disponíveis na [release 0.3.0](https://github.com/tuofxit/Pluguin.Inst/releases/tag/v0.3.0). Siga a tabela:
 
 | Arquivo da release | Extrair dentro de |
 |---|---|
@@ -56,6 +62,7 @@ Na [Release 0.3.0](https://github.com/tuofxit/Pluguin.Inst/releases/tag/v0.3.0),
 | `Banco-Guitarras-Eletricas.zip` | `Instro-Natural/Banks/Electric-Guitars` |
 | `Banco-Baixo-Eletrico.zip` | `Instro-Natural/Banks/Electric-Bass` |
 | **Todos** os ZIPs `Banco-Orquestra-*.zip` | `Instro-Natural/Banks/VSCO` — mesma pasta para todas as partes |
+| `Banco-Urban.zip` | `Instro-Natural/Banks/Urban` |
 | `Banco-VCSL.zip` | `Instro-Natural/Banks/VCSL` |
 
 As partes da orquestra são ZIPs independentes: extraia todas na mesma pasta, preservando a estrutura. Mantenha o `catalog.json` fornecido no pacote Windows em `Banks`. Não mova apenas os arquivos WAV: os caminhos dos SFZ precisam ser preservados.
@@ -84,9 +91,9 @@ O Instro toca o MIDI que você cria; ele não gera beats automaticamente.
 
 ## Experimentar sem uma DAW
 
-Abra **Standalone/Instro Natural.exe**, configure a saída de áudio no painel do aplicativo e selecione a pasta `Banks`. Use o teclado da interface ou um controlador MIDI. A opção **Sons naturais** usa samples; desativá-la libera os 80 timbres sintéticos e seus controles.
+Abra **Standalone/Instro Natural.exe**, configure a saída de áudio no painel do aplicativo e selecione a pasta `Banks`. Use o teclado da interface ou um controlador MIDI. A opção **Usar samples** usa samples; desativá-la libera os 80 timbres sintéticos e seus controles.
 
-**[Baixar a demonstração em WAV](https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Demo-instrumentos.wav)** — dez exemplos renderizados com os bancos desta versão.
+**[Baixar a demonstração em WAV](https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.4.0/Demo-instrumentos.wav)** — 54 exemplos renderizados com os bancos da expansão Urban.
 
 ## Instrumentos e variações
 
@@ -97,13 +104,13 @@ Abra **Standalone/Instro Natural.exe**, configure a saída de áudio no painel d
 - **Sopros/metais:** flautas, piccolo, flautas doces, ocarina, gaita, clarinete, oboé, fagote, sax tenor, trompete, trombone, trompa e tuba.
 - **Percussão:** tímpanos, kit orquestral, marimba, vibrafone, xilofone, glockenspiel, sinos, kalimbas, balafon, bongôs, conga, cajón, agogô e outros.
 
-**[Ver o catálogo completo de instrumentos e articulações](docs/CATALOGO.md).** As 57 opções incluem combinações de guitarras e pianos alternativos; as 248 articulações/presets não são 248 instrumentos distintos.
+**[Catálogo dos bancos acústicos](docs/CATALOGO.md)** e **[catálogo Urban](docs/CATALOGO-URBAN.md)**. As 57 opções incluem combinações de guitarras e pianos alternativos; as 248 articulações/presets não são 248 instrumentos distintos.
 
 ## Estado da versão e testes
 
-Esta é uma primeira versão experimental **0.3.0**, com binários Windows x64 compilados. Foram executados:
+Esta é uma primeira versão experimental **0.4.0**, com binários Windows x64 compilados. Foram executados:
 
-- **248/248 presets** carregando e produzindo áudio em duas intensidades.
+- **149/149 novos presets** da expansão Urban carregaram e produziram áudio em duas intensidades. Os **248/248 presets** acústicos anteriores foram validados na versão 0.3.0.
 - Processador em **44,1/48 kHz**, com blocos de **64/1024/4096** frames.
 - Salvamento/restauração do instrumento, recuperação de arquivo ausente e reprodução dos 80 timbres sintéticos.
 - Renderização e inspeção da interface.
@@ -125,7 +132,7 @@ Esta é uma primeira versão experimental **0.3.0**, com binários Windows x64 c
 
 ## Código-fonte e compilação
 
-O repositório contém o código JUCE/C++ e o navegador de bancos. Os samples e os binários ficam nos assets da Release, fora do histórico Git. O pacote **[código com dependências](https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Instro-Natural-codigo-com-dependencias.zip)** também inclui os fontes do JUCE e do sfizz para recompilar sem baixá-los novamente.
+O repositório contém o código JUCE/C++ e o navegador de bancos. Os samples e os binários ficam nos assets da Release, fora do histórico Git. O pacote **[código com dependências](https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.4.0/Instro-Natural-codigo-com-dependencias.zip)** também inclui os fontes do JUCE e do sfizz para recompilar sem baixá-los novamente.
 
 Com Visual Studio 2022 e a carga Desktop C++, CMake 3.22+ e Git:
 
@@ -149,6 +156,9 @@ O CMake obtém JUCE 9.0.4 e sfizz 1.2.3 quando as dependências não estão pres
 | Orquestra | [VSCO 2 Community Edition](https://github.com/sgossner/VSCO-2-CE) | CC0 |
 | Instrumentos extras | [VCSL / Versilian Studios](https://github.com/sgossner/VCSL) | CC0 |
 | Guitarras elétricas | [Karoryfer Black And Green Guitars](https://github.com/sfzinstruments/karoryfer.black-and-green-guitars) | CC0 |
+| Synths e baterias Frequency303 | [Allan Legemaate](https://www.frequency303.com/samples/) | CC0 |
+| Pads, leads e SR16 | [SHLD / Ludovic Drolez](https://drolez.com/blog/music/ableton-free-sound-packs.php) | CC0-1.0 |
+| 808s, bells/plucks e MIDI originais | Este projeto | CC0-1.0 |
 | Baixo elétrico | [Karoryfer Growlybass](https://github.com/sfzinstruments/karoryfer.growlybass) | CC0 |
 
 As gravações pertencem aos respectivos autores e foram reutilizadas sob suas licenças abertas. Os mapeamentos VCSL e as opções de seleção do violão de nylon foram adaptados para este projeto. A licença do programa é separada da licença dos samples. Consulte [LICENSE](LICENSE), [avisos das dependências](Licenses) e [fontes/hashes dos bancos](docs/SAMPLE-SOURCES.json).

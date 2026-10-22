@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "project": "Instro Natural",
   "repository": "tuofxit/Pluguin.Inst",
   "groups": {
@@ -8,15 +8,16 @@
     "guitarras": "Guitarras eletricas Gretsch e Hofner",
     "baixo": "Jazz Bass Growlybass",
     "orquestra": "Cordas, sopros, metais, teclas e percussao VSCO",
-    "extras": "26 instrumentos extras da VCSL"
+    "extras": "26 instrumentos extras da VCSL",
+    "urban": "149 presets: synths, 808s, pads, bells, plucks e baterias"
   },
   "assets": [
     {
       "file": "Instro-Natural-Windows-x64.zip",
-      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Instro-Natural-Windows-x64.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.4.0/Instro-Natural-Windows-x64.zip",
       "destination": ".",
-      "bytes": 7143750,
-      "sha256": "9968726bdece351aa9aa1d871f9b7fbf20ce208a9997a7f1f041e92335d8a3d7",
+      "bytes": 7127495,
+      "sha256": "0d82197bf355161cdc5bf8945f63c4346d6624c6d72c5e225c0b2135131d6215",
       "group": "base"
     },
     {
@@ -92,19 +93,27 @@
       "group": "orquestra"
     },
     {
+      "file": "Banco-Urban.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.4.0/Banco-Urban.zip",
+      "destination": "Banks/Urban",
+      "bytes": 676583700,
+      "sha256": "ab9459018d76529433d849032da626ed3acfd536de0385ba05421d9659439edf",
+      "group": "urban"
+    },
+    {
       "file": "Instro-Natural-codigo-com-dependencias.zip",
-      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Instro-Natural-codigo-com-dependencias.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.4.0/Instro-Natural-codigo-com-dependencias.zip",
       "destination": ".",
-      "bytes": 49581626,
-      "sha256": "3b2d0a6658301ffd217e4f37c94d51a549fbd1f203ba3a6929dfdd25652e8916",
+      "bytes": 49651628,
+      "sha256": "10037b08f239b328e8960680a51010099c344238eba79cc2b59094d85504d08c",
       "group": "codigo"
     },
     {
       "file": "Demo-instrumentos.wav",
-      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Demo-instrumentos.wav",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.4.0/Demo-instrumentos.wav",
       "destination": ".",
-      "bytes": 6206844,
-      "sha256": "3f43cce3bb29acf90fd49f8e4599c56fc32c6a62a2de95a993a8cfd2ba14f770",
+      "bytes": 33516764,
+      "sha256": "7a9c7c20c14cf6f1b1d45731437cf5a48dd98dd461a7597a3420507eb364426c",
       "group": "demo"
     }
   ]

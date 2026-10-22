@@ -11,7 +11,7 @@ InstroAudioProcessorEditor::InstroAudioProcessorEditor(InstroAudioProcessor& pro
     keyboard.setLowestVisibleKey(48);
     addAndMakeVisible(naturalInfo);
     naturalInfo.setFont(juce::Font(juce::FontOptions(16.0f)));
-    naturalInfo.setText("EXPRESSAO DOS INSTRUMENTOS\n\nToque com intensidades diferentes para explorar a dinamica das gravacoes.\nEscolha tecnicas de execucao no menu de variacoes.\nUse o pedal de sustain quando o instrumento permitir.\n\nO volume e ajustado no controle OUTPUT. O teclado abaixo permite experimentar.", juce::dontSendNotification);
+    naturalInfo.setText("SAMPLES E PRODUCAO MIDI\n\nEscolha uma familia, instrumento e variacao.\nPads e teclas respondem as notas e intensidades MIDI.\nKits eletronicos usam teclas especificas: consulte MAPA-TECLAS.md.\nOne shots individuais: som original em MIDI 60.\n\nUse OUTPUT para ajustar o volume. Aguarde Pronto antes de tocar.", juce::dontSendNotification);
 
     titleLabel.setText("INSTRO NATURAL", juce::dontSendNotification);
     titleLabel.setFont(juce::Font(juce::FontOptions(28.0f, juce::Font::bold)));

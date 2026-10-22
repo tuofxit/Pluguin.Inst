@@ -1,0 +1,17 @@
+{
+  "command": [
+    "C:\\Users\\bolin\\Documents\\Codex\\2026-10-22\\eu-x20\\work\\pluginval\\pluginval.exe",
+    "--validate",
+    "C:\\Users\\bolin\\Documents\\Codex\\2026-10-22\\eu-x20\\outputs\\Instro-Urban-0.4.0\\VST3\\Instro Natural.vst3",
+    "--strictness-level",
+    "5",
+    "--skip-gui-tests",
+    "--output-dir",
+    "C:\\Users\\bolin\\Documents\\Codex\\2026-10-22\\eu-x20\\outputs\\Instro-Urban-0.4.0\\Validation",
+    "--output-filename",
+    "pluginval.log",
+    "--timeout-ms",
+    "60000"
+  ],
+  "exit_code": 0
+}

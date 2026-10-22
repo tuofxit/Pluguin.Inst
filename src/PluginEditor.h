@@ -22,7 +22,7 @@ private:
     juce::ComboBox familySelector, instrumentSelector, articulationSelector;
     juce::Label familyLabel, instrumentLabel, articulationLabel, statusLabel;
     juce::Label naturalInfo;
-    juce::ToggleButton naturalToggle { "Sons naturais" };
+    juce::ToggleButton naturalToggle { "Usar samples" };
     juce::TextButton folderButton { "Escolher pasta Banks..." };
     juce::TextButton panicButton { "Parar notas" };
     std::unique_ptr<juce::FileChooser> folderChooser;

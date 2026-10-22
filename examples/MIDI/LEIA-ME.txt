@@ -1,0 +1,1 @@
+Templates originais editáveis de 4 compassos. Importe como MIDI, com uma faixa de baixo/melodia e uma de bateria. O MIDI não inclui áudio nem escolhe instrumentos. Escolha os timbres no Instro. Mapeamento de bateria usado: kick36, snare38, hat42; remapeie para o kit selecionado. São pontos de partida simples, não transcrições de músicas. Licença CC0-1.0.

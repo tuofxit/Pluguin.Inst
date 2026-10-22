@@ -40,7 +40,8 @@ void SampleEngine::run()
         if (threadShouldExit()) break;
         const juce::ScopedLock requestGuard(requestLock);
         if (ticket != generation.load()) continue;
-        if (ok && sfizz_get_num_regions(replacement.get()) > 0)
+        if (ok && sfizz_get_num_regions(replacement.get()) > 0
+            && sfizz_get_num_preloaded_samples(replacement.get()) > 0)
         {
             { // Old synth is freed after releasing the lock.
                 const juce::SpinLock::ScopedLockType lock(engineLock);

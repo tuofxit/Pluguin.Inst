@@ -1,0 +1,272 @@
+[
+  {
+    "instrument": "Ms20 Acid Bass",
+    "articulation": "Multisample original",
+    "start_seconds": 0.0
+  },
+  {
+    "instrument": "Ms20 Detuned Saws",
+    "articulation": "Multisample original",
+    "start_seconds": 3.51859410430839
+  },
+  {
+    "instrument": "Ms20 Punchy Saw Bass",
+    "articulation": "Multisample original",
+    "start_seconds": 7.03718820861678
+  },
+  {
+    "instrument": "Ms20 Reso Bass",
+    "articulation": "Multisample original",
+    "start_seconds": 10.55578231292517
+  },
+  {
+    "instrument": "Ms20 Saw",
+    "articulation": "Multisample original",
+    "start_seconds": 14.07437641723356
+  },
+  {
+    "instrument": "Ms20 Saw Slow Release",
+    "articulation": "Multisample original",
+    "start_seconds": 17.59297052154195
+  },
+  {
+    "instrument": "Ms20 Square",
+    "articulation": "Multisample original",
+    "start_seconds": 21.11156462585034
+  },
+  {
+    "instrument": "Ms20 Triangle",
+    "articulation": "Multisample original",
+    "start_seconds": 24.63015873015873
+  },
+  {
+    "instrument": "Sk5 Choir",
+    "articulation": "Multisample original",
+    "start_seconds": 28.14875283446712
+  },
+  {
+    "instrument": "Sk5 Dog",
+    "articulation": "Multisample original",
+    "start_seconds": 31.66734693877551
+  },
+  {
+    "instrument": "Sk5 Flute",
+    "articulation": "Multisample original",
+    "start_seconds": 35.1859410430839
+  },
+  {
+    "instrument": "Sk5 Piano",
+    "articulation": "Multisample original",
+    "start_seconds": 38.70453514739229
+  },
+  {
+    "instrument": "Sk5 Pipeorgan",
+    "articulation": "Multisample original",
+    "start_seconds": 42.22312925170068
+  },
+  {
+    "instrument": "Sk5 Surf",
+    "articulation": "Multisample original",
+    "start_seconds": 45.74172335600907
+  },
+  {
+    "instrument": "Sk5 Trumpet",
+    "articulation": "Multisample original",
+    "start_seconds": 49.26031746031746
+  },
+  {
+    "instrument": "Sk5 Vibraphone",
+    "articulation": "Multisample original",
+    "start_seconds": 52.77891156462585
+  },
+  {
+    "instrument": "MS20 drums",
+    "articulation": "Clap - 1",
+    "start_seconds": 56.29750566893424
+  },
+  {
+    "instrument": "MS20 FX",
+    "articulation": "Alarm_1",
+    "start_seconds": 59.816099773242634
+  },
+  {
+    "instrument": "SK5 SK-5-Drums",
+    "articulation": "Dog",
+    "start_seconds": 63.33469387755102
+  },
+  {
+    "instrument": "TX81Z Standard",
+    "articulation": "FX - Alarm",
+    "start_seconds": 66.85328798185941
+  },
+  {
+    "instrument": "TX81Z Additional",
+    "articulation": "FX - Traffic",
+    "start_seconds": 70.3718820861678
+  },
+  {
+    "instrument": "MNF-006-VerdantMeadows",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 73.89047619047619
+  },
+  {
+    "instrument": "MNF-007-SereneLake",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 77.40907029478458
+  },
+  {
+    "instrument": "MNF-008-FrozenToundra",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 80.92766439909298
+  },
+  {
+    "instrument": "MNF-009-LushValley",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 84.44625850340137
+  },
+  {
+    "instrument": "MNF-010-HillsFactory",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 87.96485260770974
+  },
+  {
+    "instrument": "WS-ANA1A-MistyMountain",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 91.48344671201814
+  },
+  {
+    "instrument": "WS-ANA1B-MossyForest",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 95.00204081632653
+  },
+  {
+    "instrument": "WS-ANA1C-ElectricRain",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 98.52063492063492
+  },
+  {
+    "instrument": "PRO1-61a-greenpad",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 102.03922902494331
+  },
+  {
+    "instrument": "PRO1-61b-greenpad",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 105.5578231292517
+  },
+  {
+    "instrument": "LQ-PRO1-11a-biglead",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 109.0764172335601
+  },
+  {
+    "instrument": "LQ-PRO1-11b-biglead",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 112.59501133786848
+  },
+  {
+    "instrument": "SR16-Drumset33-Country3",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 116.11360544217688
+  },
+  {
+    "instrument": "SR16-Drumset34-CountryRock",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 119.63219954648527
+  },
+  {
+    "instrument": "SR16-Drumset35-Rockabilly",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 123.15079365079364
+  },
+  {
+    "instrument": "SR16-Drumset36-Jazz1",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 126.66938775510204
+  },
+  {
+    "instrument": "SR16-Drumset37-Jazz2",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 130.18798185941043
+  },
+  {
+    "instrument": "SR16-Drumset38-Dixie",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 133.70657596371882
+  },
+  {
+    "instrument": "SR16-Drumset39-Polka",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 137.2251700680272
+  },
+  {
+    "instrument": "SR16-Drumset02-Rock3",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 140.7437641723356
+  },
+  {
+    "instrument": "SR16-Drumset03-Rock4",
+    "articulation": "Original - camadas de intensidade",
+    "start_seconds": 144.262358276644
+  },
+  {
+    "instrument": "808 Clean",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 147.78095238095239
+  },
+  {
+    "instrument": "808 Short",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 151.29954648526078
+  },
+  {
+    "instrument": "808 Long",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 154.81814058956917
+  },
+  {
+    "instrument": "808 Saturated",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 158.33673469387756
+  },
+  {
+    "instrument": "808 Hard",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 161.85532879818595
+  },
+  {
+    "instrument": "808 Soft",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 165.37392290249434
+  },
+  {
+    "instrument": "808 Fifth",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 168.89251700680273
+  },
+  {
+    "instrument": "808 Octave",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 172.4111111111111
+  },
+  {
+    "instrument": "Bell Glass",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 175.9297052154195
+  },
+  {
+    "instrument": "Bell Dark",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 179.44829931972788
+  },
+  {
+    "instrument": "Pluck Digital",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 182.96689342403627
+  },
+  {
+    "instrument": "Pluck Soft",
+    "articulation": "Original Instro - 24 bit / 48 kHz",
+    "start_seconds": 186.48548752834466
+  }
+]

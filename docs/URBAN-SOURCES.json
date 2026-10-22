@@ -1,0 +1,97 @@
+[
+  {
+    "name": "MS20",
+    "author": "Allan Legemaate / Frequency 303",
+    "url": "https://storage.googleapis.com/www-frequency303-com-data-prod/MS-20-Samples-AllanLegemaate.zip",
+    "page": "https://www.frequency303.com/samples/ms20-samples/",
+    "license": "CC0-1.0",
+    "sha256": "fde6ede61a414691db6828b2e3296d2ace3d1607aa584984725b49cb624b4b3e"
+  },
+  {
+    "name": "SK5-Instruments",
+    "author": "Allan Legemaate / Frequency 303",
+    "url": "https://storage.googleapis.com/www-frequency303-com-data-prod/SK-5-AllanLegemaate.zip",
+    "page": "https://www.frequency303.com/samples/sk5-samples/",
+    "license": "CC0-1.0",
+    "sha256": "d601ff7cff59d872bb0093a92747111e1ba3b19e704889dc714e2e729143a883"
+  },
+  {
+    "name": "SK5-Drums",
+    "author": "Allan Legemaate / Frequency 303",
+    "url": "https://storage.googleapis.com/www-frequency303-com-data-prod/SK-5-Drums.zip",
+    "page": "https://www.frequency303.com/samples/sk5-samples/",
+    "license": "CC0-1.0",
+    "sha256": "d04c51a41bf5022e6b4ce6bc828cfd6815ded21e4a92cf23c2cbacb459d67c2e"
+  },
+  {
+    "name": "TX81Z-Drums",
+    "author": "Allan Legemaate / Frequency 303",
+    "url": "https://storage.googleapis.com/www-frequency303-com-data-prod/TX81Z-Drums-AllanLegemaate.zip",
+    "page": "https://www.frequency303.com/samples/tx81z-drums/",
+    "license": "CC0-1.0",
+    "sha256": "9a9d2f3c5f20ed1c19ef7260ece02ad34f8cb7f511c76bcfafef018c668c7180"
+  },
+  {
+    "name": "MiniFreak-02b",
+    "author": "Ludovic Drolez / SHLD Music",
+    "page": "https://www.patreon.com/posts/85944174",
+    "download": "https://www.patreon.com/file?h=85944174&m=215224741",
+    "license_page": "https://drolez.com/blog/music/ableton-free-sound-packs.php",
+    "license": "CC0-1.0",
+    "sha256": "1d44cd2f5314ce9c2f52bba3cfd8da97e36d901d4b6b7a45300bbca0d9784b13"
+  },
+  {
+    "name": "MiniFreak-02",
+    "author": "Ludovic Drolez / SHLD Music",
+    "page": "https://www.patreon.com/posts/85944174",
+    "download": "https://www.patreon.com/file?h=85944174&m=215224836",
+    "license_page": "https://drolez.com/blog/music/ableton-free-sound-packs.php",
+    "license": "CC0-1.0",
+    "sha256": "ab1c37aaa021f95c8d64a7959a51346af0fb496da2a6c0d29d6c2c007f4bbeab"
+  },
+  {
+    "name": "Wavestate",
+    "author": "Ludovic Drolez / SHLD Music",
+    "page": "https://www.patreon.com/posts/92893559",
+    "download": "https://www.patreon.com/file?h=92893559&m=246569557",
+    "license_page": "https://drolez.com/blog/music/ableton-free-sound-packs.php",
+    "license": "CC0-1.0",
+    "sha256": "c63643fda9760c95d0b8b3295cb6a622c7580835d79cf8248f828bb08ac05bd4"
+  },
+  {
+    "name": "Pro1-Pads",
+    "author": "Ludovic Drolez / SHLD Music",
+    "page": "https://www.patreon.com/posts/59998448",
+    "download": "https://www.patreon.com/file?h=59998448&m=133822627",
+    "license_page": "https://drolez.com/blog/music/ableton-free-sound-packs.php",
+    "license": "CC0-1.0",
+    "sha256": "7a3202bf9fc1ca1667fe37bdcad009f93f12b223680dd7e12f9f77f7bb338c41"
+  },
+  {
+    "name": "SR16-33-39",
+    "author": "Ludovic Drolez / SHLD Music",
+    "page": "https://www.patreon.com/posts/88559623",
+    "download": "https://www.patreon.com/file?h=88559623&m=226348956",
+    "license_page": "https://drolez.com/blog/music/ableton-free-sound-packs.php",
+    "license": "CC0-1.0",
+    "sha256": "034c2e220b3480f52676a8129a09786e8c1107a72d0e85938654b08f19459a9c"
+  },
+  {
+    "name": "SR16-02-03",
+    "author": "Ludovic Drolez / SHLD Music",
+    "page": "https://www.patreon.com/posts/88559623",
+    "download": "https://www.patreon.com/file?h=88559623&m=226348988",
+    "license_page": "https://drolez.com/blog/music/ableton-free-sound-packs.php",
+    "license": "CC0-1.0",
+    "sha256": "55113d0c509ab4aa6f412b0310b4f06ce639e1e8974b1aa2eef33a2351caa355"
+  },
+  {
+    "name": "Pro1-Leads",
+    "author": "Ludovic Drolez / SHLD Music",
+    "page": "https://www.patreon.com/posts/51667240",
+    "download": "https://www.patreon.com/file?h=51667240&m=262852894",
+    "license_page": "https://drolez.com/blog/music/ableton-free-sound-packs.php",
+    "license": "CC0-1.0",
+    "sha256": "cdd2607fde82cd58f3527cbbab4602d2eb862c963ddfb9a4bd8e0fef06d72696"
+  }
+]

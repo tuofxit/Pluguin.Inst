@@ -51,9 +51,9 @@ int main(int argc, char** argv)
 {
     juce::ScopedJuceInitialiser_GUI init;
     try {
-        expect(argc == 3, "Usage: InstroChecks <Banks> <screenshot.png>");
+        expect(argc == 3 || argc == 4, "Usage: InstroChecks <Banks> <screenshot.png> [relative.sfz]");
         const juce::File banks(juce::String::fromUTF8(argv[1]));
-        const auto piano = banks.getChildFile("Meta-Piano/meta-piano.sfz");
+        const auto piano = banks.getChildFile(argc == 4 ? juce::String::fromUTF8(argv[3]) : "Meta-Piano/meta-piano.sfz");
         InstroAudioProcessor p;
         p.setBankRoot(banks);
         p.prepareToPlay(44100, 64);

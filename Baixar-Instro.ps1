@@ -1,4 +1,4 @@
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param(
     [string]$Destino = (Join-Path ([Environment]::GetFolderPath('MyDocuments')) 'Instro-Natural'),
     [string]$Bancos = 'todos',
@@ -9,10 +9,10 @@ param(
 $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$releaseUrl = 'https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/'
+$releaseUrl = 'https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.4.0/'
 $selectedBanks = @($Bancos.Split(',') | ForEach-Object { $_.Trim().ToLowerInvariant() })
 foreach ($bank in $selectedBanks) {
-    if ($bank -notin @('todos','nenhum','piano','violoes','guitarras','baixo','orquestra','extras')) {
+    if ($bank -notin @('todos','nenhum','piano','violoes','guitarras','baixo','orquestra','extras','urban')) {
         throw ('Banco desconhecido: ' + $bank)
     }
 }
@@ -43,8 +43,8 @@ $chosen = @($manifest.assets | Where-Object {
 })
 
 foreach ($asset in $chosen) {
-    if (-not $asset.url.StartsWith($releaseUrl, [StringComparison]::Ordinal)) {
-        throw ('URL fora desta release: ' + $asset.file)
+    if (-not $asset.url.StartsWith('https://github.com/tuofxit/Pluguin.Inst/releases/download/', [StringComparison]::Ordinal)) {
+        throw ('URL fora do repositorio: ' + $asset.file)
     }
     if ([IO.Path]::GetFileName($asset.file) -ne $asset.file) {
         throw 'Nome de arquivo invalido no manifesto.'
