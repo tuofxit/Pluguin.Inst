@@ -1,0 +1,23 @@
+{
+  "version": "0.3.0",
+  "platform": "Windows x64",
+  "natural_instrument_entries": 57,
+  "natural_presets": 248,
+  "sample_wav_files": 7350,
+  "sample_wav_bytes": 7204048244,
+  "sfz_audio_tests_passed": 248,
+  "sfz_test_velocities": [
+    40,
+    110
+  ],
+  "sfz_test_engine": "Official sfizz 1.2.3 Windows DLL (separate bank data checks)",
+  "processor_tests": "Compiled Instro Natural processor: stereo at 44100 and 48000 Hz, block sizes 64/1024/4096, saved state restore, missing-file fallback, 80 synthetic engines, editor snapshot.",
+  "pluginval": "1.0.4 strictness 5; PASS; GUI tests skipped (editor rendered separately); no Steinberg external validator supplied.",
+  "ableton_live_test": "Not executed; user must verify inside Live 12.",
+  "source": "Source with bundled JUCE 9.0.4 and sfizz 1.2.3 sources; Microsoft C++ runtime statically linked.",
+  "known_limitations": [
+    "Some advanced Black And Green Guitars modulation opcodes unsupported by sfizz 1.2.3; see user guide.",
+    "Custom VCSL mappings omit release samples and added sustain loops.",
+    "Factory instrument choice saved as project state, not host automation."
+  ]
+}

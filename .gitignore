@@ -1,0 +1,16 @@
+/build*/
+/Dependencies/
+/Banks/
+/Downloads/
+/VST3/
+/Standalone/
+/.vs/
+*.user
+*.pdb
+*.obj
+*.lib
+*.exe
+*.vst3
+*.zip
+*.wav
+!validation/*.log

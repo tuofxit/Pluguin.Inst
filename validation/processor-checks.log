@@ -1,0 +1,10 @@
+Natural 44100 Hz / 64 frames PASS
+Natural 44100 Hz / 1024 frames PASS
+Natural 44100 Hz / 4096 frames PASS
+Natural 48000 Hz / 64 frames PASS
+Natural 48000 Hz / 1024 frames PASS
+Natural 48000 Hz / 4096 frames PASS
+State restoration PASS
+80 synthetic choices PASS
+Missing file recovery PASS
+Editor snapshot PASS

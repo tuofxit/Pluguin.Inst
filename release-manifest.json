@@ -1,0 +1,111 @@
+{
+  "version": "0.3.0",
+  "project": "Instro Natural",
+  "repository": "tuofxit/Pluguin.Inst",
+  "groups": {
+    "piano": "Piano vertical Meta",
+    "violoes": "Violoes de nylon e aco",
+    "guitarras": "Guitarras eletricas Gretsch e Hofner",
+    "baixo": "Jazz Bass Growlybass",
+    "orquestra": "Cordas, sopros, metais, teclas e percussao VSCO",
+    "extras": "26 instrumentos extras da VCSL"
+  },
+  "assets": [
+    {
+      "file": "Instro-Natural-Windows-x64.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Instro-Natural-Windows-x64.zip",
+      "destination": ".",
+      "bytes": 7154014,
+      "sha256": "136b5d2e3d9dc0300dad30083d7444fb91240216ccf2fe4408b83b03bf0e0dbc",
+      "group": "base"
+    },
+    {
+      "file": "Banco-Piano-Meta.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Banco-Piano-Meta.zip",
+      "destination": "Banks/Meta-Piano",
+      "bytes": 752311261,
+      "sha256": "ee9023dbde849ecab393a098aa0cfbd6f2ef48d4a096b9c08808b72fc913f70e",
+      "group": "piano"
+    },
+    {
+      "file": "Banco-Violao-Nylon.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Banco-Violao-Nylon.zip",
+      "destination": "Banks/Meta-Nylon",
+      "bytes": 423127309,
+      "sha256": "e7fa168b97a72ecc1257917f85cb524fe7c2e1f098dfdcaf8f5c0e29cabe768e",
+      "group": "violoes"
+    },
+    {
+      "file": "Banco-Violao-Aco.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Banco-Violao-Aco.zip",
+      "destination": "Banks/Meta-Steel",
+      "bytes": 663385210,
+      "sha256": "caaa8a9c07217f4a82d1dfd9f5657c286155464b66bf4dd27797811c2558a909",
+      "group": "violoes"
+    },
+    {
+      "file": "Banco-Guitarras-Eletricas.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Banco-Guitarras-Eletricas.zip",
+      "destination": "Banks/Electric-Guitars",
+      "bytes": 481838512,
+      "sha256": "ba95221d32fb6386c5d0a0799b93904fd55520aca017c5f121da290075c140c0",
+      "group": "guitarras"
+    },
+    {
+      "file": "Banco-Baixo-Eletrico.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Banco-Baixo-Eletrico.zip",
+      "destination": "Banks/Electric-Bass",
+      "bytes": 167454256,
+      "sha256": "b92dca75494fa39d6e8d8b8addaabfe70c5aaa59b5f9a0f624be6de51a2374bc",
+      "group": "baixo"
+    },
+    {
+      "file": "Banco-VCSL.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Banco-VCSL.zip",
+      "destination": "Banks/VCSL",
+      "bytes": 971334305,
+      "sha256": "e672d61ed0ad4b83ad225627113477ca6967c3aba8a0d14a96726b1210cc4a58",
+      "group": "extras"
+    },
+    {
+      "file": "Banco-Orquestra-01.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Banco-Orquestra-01.zip",
+      "destination": "Banks/VSCO",
+      "bytes": 1599231549,
+      "sha256": "d43bb55acdd577120a3b5e0a86fb8260fb1c0c1050fd83954547abc3963af2a4",
+      "group": "orquestra"
+    },
+    {
+      "file": "Banco-Orquestra-02.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Banco-Orquestra-02.zip",
+      "destination": "Banks/VSCO",
+      "bytes": 1599644611,
+      "sha256": "2e5cf899d3a552b3029cbae025ba51c1cd1070307d066a0283d29877bd00e508",
+      "group": "orquestra"
+    },
+    {
+      "file": "Banco-Orquestra-03.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Banco-Orquestra-03.zip",
+      "destination": "Banks/VSCO",
+      "bytes": 39881231,
+      "sha256": "9a0668942db3ad810f1c39b8e370e82bfcdb9d6442aaa3e2d3866f4cc96245d4",
+      "group": "orquestra"
+    },
+    {
+      "file": "Instro-Natural-codigo-com-dependencias.zip",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Instro-Natural-codigo-com-dependencias.zip",
+      "destination": ".",
+      "bytes": 49581626,
+      "sha256": "3b2d0a6658301ffd217e4f37c94d51a549fbd1f203ba3a6929dfdd25652e8916",
+      "group": "codigo"
+    },
+    {
+      "file": "Demo-instrumentos.wav",
+      "url": "https://github.com/tuofxit/Pluguin.Inst/releases/download/v0.3.0/Demo-instrumentos.wav",
+      "destination": ".",
+      "bytes": 6206844,
+      "sha256": "3f43cce3bb29acf90fd49f8e4599c56fc32c6a62a2de95a993a8cfd2ba14f770",
+      "group": "demo"
+    }
+  ]
+}
